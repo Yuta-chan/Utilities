@@ -26,7 +26,19 @@ As a Japanese language learner, the challenge of reading Japanese text in Hiraga
 ## Set Up and Requirements
 - Python 3.x
 - MeCab
-Ensure you have the above requirements installed. For MeCab installation, follow the [official documentation](https://pypi.org/project/mecab-python3/).
+### Install Required Python Packages
+- Install the required packages using pip:
+    ```bash
+    pip install -r requirements.txt
+    ```
+### MeCab and Dictionary Installation
+- Install MeCab and the necessary dictionary. For example, if using `unidic-lite`:
+    ```bash
+    pip install unidic-lite
+    ```
+- Alternatively, provide instructions for installing other versions of the dictionary if needed.
+
+For more details on MeCab installation, follow the [official documentation](https://pypi.org/project/mecab-python3/).
 Also, make sure to give execution permissions to `kanji_to_hiragana.sh`:
 
 ```bash
