@@ -1,0 +1,3 @@
+mecab-python3==1.0.3
+unidic
+# unidic-lite # if you're using unidic-lite as your dictionary
